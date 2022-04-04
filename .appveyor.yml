@@ -12,4 +12,4 @@ install:
 
 build_script:
   - chmod +x gradlew
-  - ./gradlew test -Dselenium.headless=true --info  # запускаем тест, флаг --info позволяет выводить больше информации, стартуем Selenide в Headless-режиме
+  - ./gradlew test -Dselenium.headless=true --info
